@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const PostData = (props) => {
   return (
     <div>
-      <Link to="/">
+      <Link to="/" onClick={props.erase}>
         <button>Go back</button>
       </Link>
       <h2>Post</h2>

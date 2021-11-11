@@ -10,6 +10,10 @@ const App = () => {
   const [BodyState, setBodyState] = useState("");
   const [CommData, setCommData] = useState([]);
 
+  const erase = () => {
+    console.log("reached here");
+    setCommData([]);
+  };
   const transferData = async (data) => {
     setTitlePostData(data.title);
     setBodyState(data.body);
@@ -27,7 +31,12 @@ const App = () => {
             exact
             path="/post"
             element={
-              <PostData title={TitlePostData} body={BodyState} cid={CommData} />
+              <PostData
+                title={TitlePostData}
+                erase={erase}
+                body={BodyState}
+                cid={CommData}
+              />
             }
           />
         </Routes>

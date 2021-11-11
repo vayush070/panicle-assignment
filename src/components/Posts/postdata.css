@@ -1,0 +1,33 @@
+.postdata-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+  padding: 0.5rem;
+  margin: 1rem 0;
+  /* border-radius: 12px; */
+  background-color: #4b4b4b;
+}
+h2 {
+  margin-left: 20px;
+  color: white;
+}
+.postdata-cont {
+  border-radius: 10px;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #004f5d;
+  background-color: #005a5d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: #067074;
+  border-color: #064374;
+}

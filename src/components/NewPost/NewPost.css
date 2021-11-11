@@ -1,0 +1,27 @@
+.new-post {
+  background-color: #7baab3;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-post button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #00525d;
+  background-color: #00575d;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-post button:hover,
+.new-post button:active {
+  background-color: #066d74;
+  border-color: #066d74;
+}
